@@ -1,0 +1,9 @@
+!!! This script will NOT overwrite existing data. I am not responsible to misuse of this script. Use at your own discretion. !!!
+
+Fill in the CSV file with the new user properties. I recommend using 1 test user first. 
+Copy the .ps1 and the .csv to a non-root directory on the ADDS server
+Open PowerShell ISE as Administrator and open the directory where the .ps1 and .csv file are located.
+Run the script and refresh ADDS to see the new users created. Check the proxyAddress attribute.
+After a successful test you can bulk add the users into the CSV and save some time!
+
+Enjoy! :)
